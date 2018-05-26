@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">quizmania</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Button text -->
+    <string name="btn_sign_in_to_google">Sign in</string>
+    <string name="btn_logout_from_google">Sign out</string>
+    <string name="btn_continue">continue</string>
+    <string name="loading">loading.........</string>
+    <!-- categories -->
+    <string name="movie">movie</string>
+    <string name="music">music</string>
+    <string name="book">book</string>
+    <string name="sports">sports</string>
+    <string name="history">history</string>
+    <string name="science">science</string>
+    <string name="share">share</string>
+    <string name="retry">retry</string>
+    <string name="next">NEXT</string>
+</resources>

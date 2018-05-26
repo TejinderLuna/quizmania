@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.tejinderluna.quizmania.Quiz_Categories_Activity">
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="*">
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageButton  android:id="@+id/bMovie"  android:contentDescription="@string/movie"  android:src="@drawable/ic_local_movies_black_24dp" android:background="@android:color/holo_orange_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+            <ImageButton android:id="@+id/bMusic"  android:contentDescription="@string/music" android:src="@drawable/music" android:background="@android:color/holo_red_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+        </TableRow>
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageButton android:id="@+id/bBook" android:contentDescription="@string/book" android:src="@drawable/book" android:background="@android:color/holo_purple" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+            <ImageButton android:id="@+id/bSports" android:contentDescription="@string/sports" android:src="@drawable/sports" android:background="@color/yellow" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+        </TableRow>
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageButton android:id="@+id/bHistory" android:contentDescription="@string/history" android:src="@drawable/history" android:background="@android:color/holo_green_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+            <ImageButton android:id="@+id/bScience" android:contentDescription="@string/science" android:src="@drawable/science" android:background="@color/cyan" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/quizmania"
+    android:padding="40dp"
+    android:weightSum="1"
+    android:id="@+id/ResultLayout"
+    tools:context="com.example.tejinderluna.quizmania.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/ResultView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="40sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/share"
+        android:id="@+id/bShare"
+        android:background="@android:color/white"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/retry"
+        android:id="@+id/bRetry"
+        android:background="@android:color/white"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/quizmania"
+    android:padding="40dp"
+    android:weightSum="1"
+    tools:context="com.example.tejinderluna.quizmania.MainActivity">
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/user_profile_photo"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="100dp"
+        app:civ_border_width="2dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_person_add_black_24dp"
+        app:civ_border_color="#FF000000"/>
+
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/btn_sign_in_to_google"
+        android:id="@+id/btn_sign_in"
+        android:background="@android:color/white"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/btn_continue"
+        android:id="@+id/btn_continue"
+        android:background="@android:color/white"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

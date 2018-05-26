@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "496266446312",
+    "project_id": "quizmania-188203"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496266446312:android:1fe4cd7bb7dac962",
+        "android_client_info": {
+          "package_name": "com.example.tejinderluna.quizmania"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496266446312-6nb90ito3ot9io3blse57ogcfogs47tp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tejinderluna.quizmania",
+            "certificate_hash": "554dd238370638cb90245ec0e9305ea90c93432e"
+          }
+        },
+        {
+          "client_id": "496266446312-o7l6e6n7cnt9opu09bmg8sbrj2u9vh0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhQBdBqfzds43mboRtZfYNUy5_sASvO50"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
